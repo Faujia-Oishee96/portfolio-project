@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: o;
+}
+[class*=col-]{
+    float: left;
+    padding: 10px;
+}
+
+/*for mobile*/
+[class*=col-]{
+    width: 100%;
+}
+
+    /* navigation starts from here */
+       
+    .nav-bar{
+        padding: 10px;
+        margin: 5px 5px;
+        text-align: right;
+    }
+  
+    .nav-bar a{
+        text-decoration: none;
+        color: black;
+        padding: 10px 10px;
+        font-size: 1.5rem;
+        font-family:sans-serif;
+    }
+    .nav-bar a:hover{
+        background-color: rgb(216, 211, 211);
+        border-radius: 5px;
+    }
+
+/* navigation starts from here */
+
+
+/* introduction starts from here */
+ .introduction{
+     padding: 5px;
+     margin: 5px;
+ }
+ .introduction::after{
+    display: table;
+    clear:both;
+    content: "";
+}
+ 
+.introduction .image img{
+    height: 450px;
+    
+}
+ .introduction .desc .blue{
+    color: rgb(3, 3, 63);
+    font-size: 2rem;
+    font-family: monospace;
+}
+.introduction .desc .pink{
+    color: coral;
+    font-size: 1.8rem;
+    font-family: monospace;
+}
+.introduction .desc p{
+        font-size: 1.2rem;
+}
+.introduction .desc button{
+    background-color:rgb(245, 131, 131);
+    padding: 15px 10px;
+    margin: 10px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: monospace;
+}
+.introduction .desc button:hover{
+        box-shadow: 0 5px 8px 6px rgb(199, 117, 117);
+}
+
+/* introduction ends here */
+ 
+/* about me section start from here */
+
+.about-me{
+    padding: 10px;
+    margin: 5px;
+  
+}   
+.aboutme-image img{
+    height: 450px;
+}
+.about-me .aboutme-desc .heading h2{
+    font-size: 3.5rem;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+
+}
+.about-me .aboutme-desc .heading p{
+    font-size: 1.5rem;
+}
+.about-me .aboutme-desc .heading button{
+    background-color: rgb(57, 57, 187);
+    padding: 15px 10px;
+    margin: 10px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: monospace;
+}
+
+.about-me .aboutme-desc .heading button:hover{
+    box-shadow: 0 5px 8px 6px rgb(160, 158, 158)   
+}
+
+.about-me::after{
+    display: table;
+    clear:both;
+    content: "";
+}
+
+/* about me section ends here */
+
+ /* card design start from here */
+ .working-exp{
+     background-color: rgb(251, 248, 248);
+    padding: 20px;
+ }
+ .working-exp .heading{
+     text-align: center;
+     font-size: 2rem;
+     color: rgb(39, 39, 102);
+
+ }
+ .design-name{
+     color: crimson;
+ }
+.card{
+    height: 350px;
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+    text-align: center;
+    border-radius:10px;
+}
+
+.card:hover{
+     box-shadow: 3px 3px 15px gray;
+}
+
+ .card-image img{
+    height: 200px;
+    width:350px;
+}
+.card-title{
+    color: rgb(51, 51, 85);
+}
+.working-exp::after{
+    display: table;
+    clear:both;
+    content: "";
+}
+/* card design ends here */
+
+/* inquiry section start from here */
+.inquiry{
+    padding: 10px;
+    margin: 60px 80px;
+    background-color: rgb(36, 36, 121);
+    color: white;
+    text-align: center;
+}
+.inquiry::after{
+    display: table;
+    clear:both;
+    content: "";
+}
+.inq h1{
+    font-size: 2rem;
+    padding: 5px;
+    
+}
+
+.chat button{
+    font-size: 2rem;
+    padding: 5px;
+    background-color:rgb(245, 131, 131);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-family:monospace;
+}
+
+.chat button:hover{
+    box-shadow: 0 5px 8px 6px rgb(175, 166, 166);
+}
+
+/* inquiry section ends here */
+
+ /* contract section start from here */
+ 
+.contract{
+    text-align: center;
+}
+.contract h2{
+    font-size: 2rem;
+}
+.contract h1 a{
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: rgb(107, 107, 194);
+}
+
+.icon{
+    padding: 10px 10px;
+    text-align: center;
+}
+.icon button{
+    border: none;
+    padding: 10px 20px;
+    font-size: 3rem;
+    border-radius: 5px;
+
+}
+
+/* contract section ends here */
